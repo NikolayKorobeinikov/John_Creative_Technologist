@@ -1,0 +1,361 @@
+.padding__space {
+  padding-left: 12.8%;
+  padding-right: 12.8%;
+} /*создали универсальный класс для того чтобы задать отступы */
+.column___direction {
+  display: flex;
+  flex-direction: column;
+}
+nav {
+  display: flex;
+  justify-content: end;
+}
+
+.navigatoin__item {
+  display: flex;
+  justify-content: flex-end;
+  gap: 35px;
+  padding-top: 27px;
+  padding-right: 60px;
+  width: 236px;
+}
+
+.menu {
+  display: none;
+}
+
+.list__item {
+  font-weight: 500;
+  font-size: 1.25rem;
+  line-height: 29px;
+}
+
+.fa-bars {
+  color: #21243d;
+  font-size: 2rem;
+}
+
+.creative__technologist {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main__header {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 60px;
+  color: #21243d;
+  /* как прописать цвет текста на все элементы если он одинаковый для всех */
+}
+
+.first__paragraph {
+  margin-top: 40px;
+  font-size: 1rem;
+  line-height: 24px;
+  font-weight: 400;
+  color: #21243d;
+}
+.about__Jhon,
+.photo {
+  display: flex;
+  flex-direction: column;
+}
+
+.about__Jhon {
+  margin-top: 180px;
+}
+
+.photo {
+  margin-top: 162px;
+  margin-left: 110px;
+  width: 243px;
+  height: 243px;
+}
+
+.btn {
+  background-color: var(--btn_bgc);
+  color: var(--btn_color);
+  padding: 9px 19px 17px 22px;
+  margin-top: 38px;
+  font-size: 1.25rem;
+  line-height: 29px;
+}
+
+.recent__posts {
+  background-color: #edf7fa;
+  margin-top: 71px;
+}
+
+.caption {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.desc {
+  font-size: 1.37rem;
+  font-weight: 400;
+  line-height: 60px;
+  color: #21243d;
+}
+
+.all__posts {
+  margin-top: 27px;
+  margin-bottom: 22px;
+  font-size: 1rem;
+  color: #00a8cc;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.first__block {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.posts {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-bottom: 32px;
+  padding: 24px 21px 27px 23px;
+  max-width: 418px;
+}
+
+.date {
+  display: flex;
+  padding-top: 17px;
+}
+
+.item__date {
+  font-size: 1.12rem;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.vertical__line {
+  padding-right: 26px;
+  padding-left: 26px;
+}
+
+.second__paragraph {
+  padding-right: 23px;
+  line-height: 24px;
+  padding-top: 11px;
+  font-size: 1rem;
+}
+
+.description__posts {
+  font-weight: 700;
+  font-size: 1.62rem;
+  line-height: 38px;
+}
+
+/*SECTION TWO */
+
+.featured__works {
+  margin-top: 15px;
+  margin-bottom: 33px;
+}
+
+.about__featured {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.37rem;
+  line-height: 60px;
+}
+
+.second__block {
+  display: flex;
+  align-items: stretch;
+}
+
+.boards {
+  width: 28.67%;
+  height: 180px;
+}
+
+.description {
+  margin-left: 16px;
+
+  width: 69.23%;
+}
+
+.board__title {
+  font-size: 1.87rem;
+  font-weight: 700;
+  line-height: 44px;
+}
+
+.date__paragraph {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  margin-bottom: 17px;
+  margin-top: 16px;
+}
+
+.year__date {
+  background-color: #142850;
+  color: #ffffff;
+  height: fit-content;
+  font-size: 1.12rem;
+  font-weight: 900;
+  border-radius: 16px;
+  padding: 5px 10px;
+}
+
+.paragpaph {
+  color: #8695a4;
+  font-size: 1.25rem;
+  line-height: 29px;
+  font-weight: 400;
+}
+
+.paragraph__three {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 24px;
+  color: #21243d;
+}
+
+.line {
+  border-bottom: 1px solid #e0e0e0;
+  margin-top: 35px;
+  margin-bottom: 35px;
+}
+
+.icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 35px;
+  margin-top: 134px;
+}
+
+.social__media {
+  width: 30px;
+  height: 30px;
+}
+
+.last__paragraph {
+  text-align: center;
+  font-weight: 400;
+  font-size: 0.87rem;
+  line-height: 21px;
+  color: #21243d;
+  margin-top: 26px;
+  margin-bottom: 54px;
+}
+
+@media all and (max-width: 1150px) {
+  .first__block,
+  .caption {
+    justify-content: center;
+  }
+
+  .all__posts {
+    display: none;
+  }
+
+  .first__block {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media all and (max-width: 992px) {
+  .creative__technologist {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .btn {
+    display: block;
+    margin: 27px auto;
+  }
+
+  .about__Jhon {
+    margin-top: 43px;
+  }
+
+  .photo {
+    margin-left: 0px;
+  }
+
+  .first__block {
+    gap: 15px;
+    justify-content: center;
+  }
+
+  .second__block {
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+  }
+
+  .boards {
+    height: 230px;
+    border-radius: 6px;
+
+    width: 280px;
+  }
+
+  .description {
+    margin-top: 17px;
+    justify-content: center;
+  }
+}
+@media all and (max-width: 768px) {
+  .caption {
+    justify-content: center;
+  }
+
+  .all__posts {
+    display: none;
+  }
+
+  .first__block {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .featured__works {
+    text-align: center;
+  }
+
+  .description {
+    margin-top: 17px;
+    width: fit-content;
+  }
+}
+
+@media all and (max-width: 576px) {
+  .navigatoin__item {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+
+  .second__block {
+    flex-direction: column;
+  }
+
+  .description {
+    margin-top: 17px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  .padding__space {
+    padding-left: 5%;
+    padding-right: 5%;
+  } /*создали универсальный класс для того чтобы задать отступы */
+}

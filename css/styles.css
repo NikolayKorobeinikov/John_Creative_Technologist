@@ -1,0 +1,54 @@
+@import "home.css";
+@import "blog.css";
+@import "work.css";
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: none;
+}
+
+:root {
+  /* --nav_color: #000000;  */
+  /* объявляем переменную */
+  --btn_color: #ffffff;
+  --btn_bgc: #ff6464;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Heebo", sans-serif;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  /* color: var(--nav_color); */
+  /* вызываем переменную по имени */
+  font-size: 20px;
+}
+
+.active {
+  color: #ff6464;
+}
+.navigation__work .item__work .active {
+  color: #ff6464;
+}
